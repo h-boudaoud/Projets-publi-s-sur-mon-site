@@ -1,0 +1,235 @@
+body{
+    font-family: 'Albertsthal',Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:1.3vw;
+}
+
+
+object{
+    margin: 0 .3vw;
+    padding:0;
+}
+
+body nav:first-child{
+        text-align:center;
+        margin:0 auto;
+} 
+
+nav, aside{
+    color:#fff;
+    line-height: 100%;
+    margin:0 .4vw;
+    whidth:100%;
+    background-color :  rgba(60, 13, 72,0.8);
+}
+
+nav.rot{width:50%;}
+
+aside.rot{
+          width:35%;
+          float :right;
+  }
+
+table{
+    width:100%;
+    margin:0 auto;
+}
+
+
+footer, header
+{
+    color : #FFF;
+    font-size:1.2vw;	
+    margin: 0px;
+    background-color :  rgba(5, 45, 49,0.6);
+    border-left:.4vw solid rgba(5,17,208,0.6) ;
+    border-right:.4vw solid rgba(5,17,208,0.6) ;
+}
+
+header
+{
+    text-align: left;
+    line-height: 120%;
+    padding:5px auto 10px auto;
+    border-bottom:0;
+    border-top:.4vw solid rgba(5,17,208,0.6) ;
+    border-radius: 15px 15px 0px 0px;	
+}
+
+footer
+{  
+    line-height: 100%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding:10px auto 5px auto;
+    border-top:0;
+    border-bottom:.4vw solid rgba(5,17,208,0.6) ;
+    border-radius: 0px 0px 15px 15px;
+}
+
+footer .button:first-child{
+
+    text-align: right;
+}
+
+h1, h2{
+    font-size:2vw;
+    color :#fff;
+    line-height: 160%;
+    text-align: center;
+    text-decoration: blink;
+    font-family: 'DigitalPlayItalicSt';
+    margin:.6vw 2vw;
+    width:90%;
+}
+
+section h2{
+	font-family: 'iarnold';
+	font-stretch: expanded;
+	text-align:center;
+   	text-decoration: blink blue;
+   	color : rgb(10,34,41);
+   	border: .4vw solid rgba(5,17,208,0.6);
+	box-shadow: 6px 6px 0px black;
+	border-radius: 10px;
+	margin :.5vm 2vw;
+        padding .4vw auto:
+}
+
+
+label{
+    text-align: right;
+    top:0.5em;
+    display: inline-block;
+}
+
+input, textarea {
+    font: 1.4vw sans-serif;
+    max-width: 40%;   
+    margin: 0.5vw;
+    vertical-align: middle;
+}
+
+textarea {
+    width: 40%; 
+}
+  
+.cv{
+    padding:.4vw;
+    border:.4vw solid black ;
+    border-radius:10px/20px !important;
+    border-radius:15px;
+    max-width:100%;
+}
+
+.page{
+    margin:.6vw;
+    padding:0 1.8vw 0 .6vw;
+    max-width:100%;
+}
+    
+
+.corps{
+    padding: .6vw .6vw  .6vw 3%;
+    margin:0;
+    background-image: url('/code-source/images/neige.png');
+    border:.4vw solid rgba(5,17,208,0.6) ;
+    border-right:.4vw solid rgba(5,17,208,0.6) ;
+	
+}
+
+
+
+.competences{
+	margin:1vw .5vw;
+        min-width:20%;
+        max-width:50%;
+        height:100%;
+	border-radius: 10px/20px;
+   	border: .4vw solid rgba(5,17,208,0.6);
+        float:left;
+}
+
+ .button,.button:visited  {
+        font-family: 'Albertsthal',Helvetica Neue,Helvetica,Arial,sans-serif;padding:3px;
+        text-align:center;
+        font-weight: 900;
+        background-color:#BCCCD2;
+        border-right:0.2vw solid #FFFFFF;
+        border-bottom:0.2vw solid #FFFFFF;
+        border-radius: 5vw/10vw !important;
+        border-radius: 0vw 10vw 0vw 10vw;
+        margin:0 .5em;
+}
+
+ .button:hover, .button:focus, .button:active{
+  background-color:#BCCCD2;
+  border-right:0.2vwm solid #BCCCD2;
+  border-bottom:0.2vw solid #BCCCD2;
+  border-left:0.15vw solid #CC3434;
+  border-top:0.15vw solid #CC3333;
+  
+}
+
+.button:hover, .button:focus, .button:active{
+  background-color:#FFFFFF;
+}
+
+
+a.button:visited  {
+  color:#CC3333;
+}
+
+.rot a{
+        font-size:1.1vw !important;
+
+}
+
+div.competences{
+        text-align: center;
+        min-width:22em;
+        max-width:25%;
+        margin:.6vw;
+        float: left;
+}
+
+.rot{
+        padding:0 1%;
+        margin:0;    
+        height:8em;
+        max-width:80%;
+        border:.4vw solid black;
+        border-radius: 15px;
+        box-shadow: 6px 6px 6px black;
+}
+
+.rot{
+        float: left;
+}
+
+ 
+.rot ul{
+        -webkit-columns:3 13vw;
+          -moz-columns:3 13vw;
+	    -ms-columns:3 13vw;
+             -o-columns:3 13vw;
+        columns:3 13vw;
+        
+    list-style: none;
+}
+
+
+.rot li:hover{
+        font-size:1.2vw; !important;
+}
+
+footer ul{
+        -webkit-columns:4 300px;
+          -moz-columns:4 300px;
+	    -ms-columns:4 300px;
+             -o-columns:4 300px;
+        columns:4 300px;
+        
+    list-style: none;
+    //column-count:4;
+}
+

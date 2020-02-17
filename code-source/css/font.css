@@ -1,0 +1,61 @@
+/* Feuille de styles CSS pour la  police */
+
+
+/* chathura-regular - latin */
+@font-face {
+  font-family:  'DigitalPlayItalicSt';
+  font-style: normal;
+  font-weight: normal;
+
+  src: url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.eot'); /* IE9 Compat Modes */
+  src: local('ancient'), local('ancient'),
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.woff') format('woff'), /* Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/DigitalPlay/ItalicSt/DigitalPlayItalicSt.svg#DigitalPlayItalicSt') format('svg'); /* Legacy iOS */
+}
+
+/* iarnold */
+@font-face {
+	font-family: 'iarnold';
+    	src: url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.eot');
+    	src: local('iarnold'),
+        url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.eot?#iefix') format('embedded-opentype'),
+        url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.woff2') format('woff2'),
+        url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.woff') format('woff'),
+        url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.ttf') format('truetype'),
+        url('http://projets-boudaoud.biz.ht/code-source/fonts/iarnold/iarnold.svg#iarnold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Angelface */
+@font-face {
+  font-family:  'Angelface';
+  font-style: normal;
+  font-weight: normal;
+
+  src: url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.eot'); /* IE9 Compat Modes */
+  src: local('bienchen'), local('bienchen'),
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.woff') format('woff'), /* Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Angelface/Angelface.svg#Angelface') format('svg'); /* Legacy iOS */
+}
+
+/* Angelface */
+@font-face {
+  font-family:  'Albertsthal';
+  font-style: normal;
+  font-weight:800;
+
+  src: url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.eot'); /* IE9 Compat Modes */
+  src: local('Albertsthal'), local('bienchen'),
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.woff2') format('woff2'), /* Super Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.woff') format('woff'), /* Modern Browsers */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('http://projets-boudaoud.biz.ht/code-source/fonts/Albertsthal/Albertsthal.svg#Albertsthal') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+}
+
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.textfield, textarea {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant */
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels */
+    width: 50%;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+}

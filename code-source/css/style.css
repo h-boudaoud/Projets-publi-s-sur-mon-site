@@ -1,0 +1,195 @@
+﻿/* Feuille de styles CSS */
+
+
+header section{
+    font-size:1.2vw;
+    letter-spacing:80%;
+    padding:5px 0;
+    margin:0 ;
+}
+
+article{
+    text-align: right;
+    padding:auto 1vw auto 3vw;
+    margin:auto .5vw auto 0;
+}
+
+article p
+{
+    font-family:'Angelface';
+    font-size:2.3vw;
+    letter-spacing:70%;
+    text-align:justify; 
+    line-height: 110%;
+    padding:5px 1vw;
+    margin:5px 5px 5px 2vw ;
+    border: .5vw solid rgba(60, 13, 72,0.8);
+    border-radius: 20px / 10px!important;
+    border-radius: 10px;
+}
+
+div.competences p{
+        text-align:center;
+        vertical-align:middle;
+        height: 3em;
+        margin:0;
+        padding:0;
+        background-image: linear-gradient(to top, rgba(60, 13, 72,.6), rgba(60, 13, 72,0))!important;	
+}
+
+
+
+mark {
+  background-color: rgba(197,117,208,0.8);
+}
+
+/* Liens par défaut (non survolés) */
+
+a:link , ul.menuIndex  a, ul.menuIndex  li ul a{      
+    text-decoration: none;
+    color : rgb(5, 45, 49);
+    font-style: italic;
+}
+.menuIndex  a , ul.menuIndex  li:hover ul a {   
+        font-weight: 900;
+}
+
+div.corps a:link{
+	text-decoration: underline dotted rgba(97,117,208,0.8);
+}
+
+
+.www a, .rot a, .tab1 a, ul.menuIndex li:hover  a:link,  ul.menuIndex  li ul li:hover a:link{
+        color:white;
+}
+
+.rot a:focus{
+    background-color:  rgba(97,117,208,0.8);
+}
+
+/* Après la visite de la page concernée par le lien*/
+
+a:visited {
+    background-color:  rgba(197,217,228,0.8);
+    font-family: 'bienchen', Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+a.button:visited  {
+  color:#CC3333;
+}
+
+/* Apparence au survol des liens */
+
+a:active,a:hover {     
+    background-color: rgba(225,225,208,0.8);*/
+    color : rgb(55,117,208);
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+ul.menuIndex  li:hover > a ,ul.menuIndex  ul li:hover > a {
+        color:white;
+}
+
+h1:hover {     
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+article p:hover{    /* Apparence au survol du texe */
+    font-size:3vw;
+}
+
+  
+ul{
+    list-style-type: square;
+    text-align: left ; 
+    padding-left: 0.6vw;
+    text-align: left ;   
+}
+
+
+
+ul.cliquer-noir li{
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 1vw;
+    background-image: url('/code-source/images/cliquer-noir.png');
+}
+
+ul.cliquer li{
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 1vw;
+    background-image: url('/code-source/images/cliquer.png');
+}
+
+ul.telecharger li{
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 1.5vw;
+    background-image: url('/code-source/images/lien.png');
+    
+}
+
+ul.www li{
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 1.5vw;
+    background-image: url('/code-source/images/www.png');
+    
+}
+
+li
+{
+    
+    padding: 1.4vw 0 0 2vw;
+}
+
+ul.cliquer li:hover{
+    font-family:arial;
+    font-size:120%;
+}
+
+div.competences ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(to top, rgba(60, 13, 72,0), rgba(60, 13, 72,.6))!important;
+}
+
+
+
+.clear{clear:both; float:none;}
+
+.message{ 
+     padding:.4vw 7vw;
+     margin:.5vw ;
+     text-align:justify; 
+     border:3px solid rgba(5,17,208,0.6);
+     border-radius:10px/20px;
+}
+
+
+
+.imageflottante
+{
+    top: 1vw;
+    float:right;
+    border-radius:1vw;
+    min-width:2vw;
+    max-width:12vw;
+}
+
+
+ul.cliquer li, ul.cliquer-noir li, ul.telecharger li, ul.www li{
+    -webkit-background-size:1.5vw;
+        -moz-background-size:1.5vw;
+            -ms-background-size:1.5vw;
+                -o-background-size:1.5vw;
+    background-size:1.5vw;
+}
+/*
+div.competences{
+        display: grid;
+        grid-auto-columns:min-content;
+}*/

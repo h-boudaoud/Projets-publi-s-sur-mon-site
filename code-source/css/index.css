@@ -1,0 +1,156 @@
+
+
+
+body{
+    /*background-image: url('/images/metal.png');*/
+    background-image: linear-gradient(to top, rgba(15, 45, 49,1), rgba(15, 45, 49,0.3), rgba(15, 45, 49,1)) ;
+    background-repeat:repeat;
+    //background-size: cover;
+    background-size: 100% 100%;
+    font-family: 'Albertsthal',Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 150%;
+    color : rgb(15, 45, 49);
+}
+
+iframe{
+    margin: 0 2%;
+    padding:0;
+    width:98%;
+    max-height: 80%;
+}
+
+ nav{
+    text-align:center;
+    margin:3px auto 0 auto;
+    padding-top:5px;
+    width:100%;
+}
+
+h1{
+	
+    padding:0;
+    font-size : 0.5px;
+    color:rgba(15, 45, 49,0);
+    margin:0;
+}
+section{
+    height:0px;
+    color: rgba(15, 45, 49,0);
+    margin:0;
+    padding:0;
+}
+
+footer, header
+{
+    color : #FFF;
+    font-size:10px;	
+    margin: 0px;
+    background-color :  rgba(5, 45, 49,0.6);
+    border-left:3px solid rgba(5,17,208,0.6) ;
+    border-right:3px solid rgba(5,17,208,0.6) ;
+}
+
+.imgIndex{
+        width:4.5vmax;
+        max-height:15%;
+        max-width:18%;
+        /*display: block;*/
+        vertical-align:middle;
+        margin:0.2vmax;
+        padding:0;
+        background-color:#BCCCD2;
+        border-radius: 5px/10px !important;
+        border-radius: 0em 1em 0em 1em;
+}
+
+ul.menuIndex a:link , ul.menuIndex a:visited{
+	text-decoration: none;
+	color:  rgb(15, 45, 49);
+	font-size: 12px;
+	font-size: 1.4vw;
+        font-weight: 100;
+        padding-left:1%;
+}
+ul.menuIndex a:hover, ul.menuIndex a:active, ul.menuIndex>li:hover> a, ul.menuIndex li li:hover> a{
+	color: #ffffff;
+	font-size: 1.7vw;
+}
+
+ul.menuIndex, ul.menuIndex  li:hover ul {
+	text-align:center;
+	padding:0 .5em;
+	margin:0;
+	list-style-type:none;
+	background-color:#BCCCD2;
+	border-right:3px solid #FFFFFF;
+	border-bottom:0.25em solid #FFFFFF;
+ }
+
+ 
+ ul.menuIndex {
+	width:90%;
+	display:inline-block;
+	border-radius: 5em/10em !important;
+	border-radius: 0em 10em 0em 10em;
+ } 
+
+ 
+ul.menuIndex li{
+        text-align:center;
+        display:block;
+        width:19%;
+        color : rgb(15, 45, 49);
+        float:left; 
+        line-height:1em; /*hauteur de l'image de fond*/
+        text-decoration:none;
+} 
+ul.menuIndex li {
+         float:left; 
+ }
+ul.menuIndex > li:hover, ul.menuIndex ul > li:hover {
+        
+	background-color: rgba(60, 13, 72,.4) ;
+        background-image: linear-gradient(to top, rgba(60, 13, 72,1), rgba(60, 13, 72,0), rgba(60, 13, 72,1));
+        border-right:3px solid #FFFFFF;
+        border-bottom:3px solid #FFFFFF;
+        border-left:2px solid rgb(15, 45, 49);
+        border-top:2px solid rgb(15, 45, 49);
+        border-radius: 5px/10px !important;
+        border-radius: 10px;
+ }
+ 
+ul.menuIndex li ul {
+        
+        list-style-type:none;
+        display:none;
+        margin:0;
+        width:100%;        
+        border-radius: 0 0 10px 10px;
+}
+
+ul.menuIndex > li:hover ul {
+
+        display:block;
+        position:absolute;
+        width:22%;
+}
+ 
+ul.menuIndex  li ul li{
+        
+        text-align:left;
+        float:none;
+        width:100%;
+}
+
+.onmenu ,.offmenu{
+
+        display:none;
+}
+
+
+a.ipInfo :link,a.ipInfo :link:hover{
+    color : #FFF !important;
+}
+a.ipInfo:visited{
+    color : #FFF !important;
+}
